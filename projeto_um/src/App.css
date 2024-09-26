@@ -1,0 +1,45 @@
+.navBar{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+label{
+
+  font-family: 'Poppins', sans-serif;
+  color: var(--cor-4);
+  font-size: 50px;
+}
+
+.container{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+.imagem_corpo img{
+   
+   width: 500px;
+   height: 500px;
+   
+   
+
+}
+.imagem_corpo{
+  margin-top: 50px;
+}
+
+.conteudo{
+
+  margin-top: 1px;
+  color: var(--cor-4);
+}
+h1{
+  font-size: 100px;
+}
+
+
