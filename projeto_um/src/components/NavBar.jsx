@@ -6,10 +6,10 @@ function NavBar() {
        <div className = 'imagem'>
          <img src ="logo.png" alt="" /> 
          </div> 
-         <label>Inicio</label>
-        <label>Produtos</label> 
-       <label htmlFor="">Contato</label>
-      <label htmlFor="">Entrar</label>
+         <button className='button_nav' onClick = {''}>Inicio</button>
+        <button className='button_nav' onClick = {''}>Produtos</button> 
+       <button className='button_nav'onClick = {''} >Sorteio</button>
+      <button className='button_nav' onClick = {''}>Entrar</button>
     </div>
   )
 }

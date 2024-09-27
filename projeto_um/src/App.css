@@ -1,16 +1,27 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
 .navBar{
 
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border: 5px solid var(--cor-5);
+  box-shadow: 90px solid;
+  width: 100%;
   
 }
 
-label{
+.button_nav{
 
   font-family: 'Poppins', sans-serif;
   color: var(--cor-4);
-  font-size: 50px;
+  font-size: 30px;
+  background-color: #ffffff;
+  border: 0px;
+
 }
 
 .container{
@@ -30,16 +41,90 @@ label{
 
 }
 .imagem_corpo{
-  margin-top: 50px;
+  margin-top: 30px;
+  width: fit-content;
 }
 
 .conteudo{
 
   margin-top: 1px;
   color: var(--cor-4);
+  margin-left: -100px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
 }
 h1{
-  font-size: 100px;
+
+  font-size: 110px;
+  width: fit-content;
 }
 
+p{
+
+  font-size: 40px;
+  margin-top: 1px;
+  margin-left: 40px;
+
+}
+.But_Home{
+
+  width: 300px;
+  height: 60px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #ffffff ;
+  background-color: var(--cor-3);
+  margin-top: 70px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.Convite_div{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--cor-5);
+  margin: 200px;
+  width: 70vw;
+  height: 60dvh;
+  border:2px solid var(--cor-5);
+  border-radius: 10px;
+}
+
+.texto_conv{
+   
+   font-size: 35px;
+   color: var(--cor-4) ;
+
+}
+
+.imagem_convite{
+ 
+  width: 450px;
+  height: 400px;
+
+
+}
+.img_Folder{
+
+  width: 100px;
+  height: 50px;
+  
+}
+.h1_folder{
+
+   font-size: 20px;
+
+}
+.div_folder{
+  
+  display: flex;
+  background-color: var(--cor-3);
+  justify-content: space-between;
+  align-items: center;
+
+
+}
 

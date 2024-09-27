@@ -1,13 +1,12 @@
 import './App.css'
-import Corpo from './components/Corpo'
-import NavBar from './components/NavBar'
+import Home_page from './pages/Home_page'
+
 
 function App() {
   
   return (
     <>
-     <NavBar/>
-     <Corpo/>
+     <Home_page/>
     </>
   )
 }

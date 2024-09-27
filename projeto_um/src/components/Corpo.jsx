@@ -5,7 +5,8 @@ function Corpo() {
     <div className = 'container'>
       <div className = 'conteudo'>
         <h1>Farmacia</h1>
-         <label htmlFor=""></label>
+         <p>Os melhores profissionais <br/>se encontram aqui.</p>
+         <button className = 'But_Home'>Comece já</button>
        </div>
         <div className = 'imagem_corpo'>
            <img src="logo.png" alt="" /> 
