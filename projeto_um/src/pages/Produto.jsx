@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import Navbar from '../components/Navbar'
 
 function Produto() {
+
     const[resultado_um,setResultado_um] = useState()
     const[resultado_dois, setResultado_dois] = useState()
     const[resultado_tres, setResultado_tres] = useState()
@@ -9,18 +11,10 @@ function Produto() {
     const[resultado_seis, setResultado_seis] = useState()
 
 
-    function comprar_but_um(){
-      
-      setResultado_um('Compra feita!')
-      setResultado_dois('')
-      setResultado_tres('')
-      setResultado_quatro('')
-      setResultado_cinco('')
-      setResultado_seis('')
-    }
-
   return (
+    
     <div>
+      <Navbar/>
       <div className ='Fileira_padrao'>
        <div className ='divs_padrao'>
           <div >
@@ -30,7 +24,7 @@ function Produto() {
           <div>
              <p1 htmlFor="">Preço:</p1><br/><br/>
              <p1 htmlFor="">R$ 19,99</p1><br/><br/>
-             <button onClick = {comprar_but_um} className='But_comprar'>Comprar</button>
+             <button  className='But_comprar'>Comprar</button>
           </div>
        </div>
 
