@@ -1,5 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
+import '../App.css'
 
 function Navbar() {
   return (
@@ -8,11 +8,11 @@ function Navbar() {
      <div className = 'imagem'>
       <img src ="logo.png" alt="" className='Logo_nav'/> 
      </div> 
-    <Link to = 'home' >Inicio</Link>
-    <Link to = 'produtos'>Produtos</Link> 
-    <Link to = '/sorteio'>Sorteio</Link>
-    <Link to = '/entrar'>Entrar</Link>
-
+    <Link to = '/' className='button_nav'>Inicio</Link>
+    <Link to = '/produto' className='button_nav'>Produtos</Link> 
+    <Link to = '/Contato' className='button_nav'>Contato</Link>
+    <Link to = '/entrar' className ='button_entrar'>Entrar</Link>
+    
     </div>
    
   )

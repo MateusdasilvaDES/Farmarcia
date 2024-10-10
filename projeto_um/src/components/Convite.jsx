@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import '../App.css'
 
 function Convite() {
   return (
@@ -8,7 +10,8 @@ function Convite() {
       </div>
       <div>
          <h1 className = 'texto_conv'>Venha conhecer nossa nova loja <br/>com a direção da querida Marcia.</h1>
-         <button className = 'But_Home' >Comece já</button>
+         <Link to = '/cadastro' className = 'But_Home'>Comece já</Link>
+         
       </div>
     </div>
   )
