@@ -10,7 +10,7 @@ function Navbar() {
      </div> 
     <Link to = '/' className='button_nav'>Inicio</Link>
     <Link to = '/produto' className='button_nav'>Produtos</Link> 
-    <Link to = '/Contato' className='button_nav'>Contato</Link>
+    <Link to = '/sorteio' className='button_nav'>Sorteio</Link>
     <Link to = '/entrar' className ='button_entrar'>Entrar</Link>
     
     </div>

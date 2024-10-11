@@ -10,8 +10,7 @@ function Convite() {
       </div>
       <div>
          <h1 className = 'texto_conv'>Venha conhecer nossa nova loja <br/>com a direção da querida Marcia.</h1>
-         <Link to = '/cadastro' className = 'But_Home'>Comece já</Link>
-         
+         <Link to = '/cadastro' className = 'But_comece_ja'>Comece já</Link>
       </div>
     </div>
   )

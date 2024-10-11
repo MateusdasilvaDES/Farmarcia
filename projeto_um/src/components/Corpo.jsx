@@ -5,9 +5,9 @@ function Corpo() {
   return (
     <div className = 'container'>
       <div className = 'conteudo'>
-        <h1>Farmacia</h1>
-         <p>Os melhores profissionais <br/>se encontram aqui.</p>
-         <Link to = '/cadastro' className = 'But_Home'>Comece já</Link>
+        <h1 className='h1_farmacia'>Farmacia</h1>
+         <p className='subtitulo_home'>Os melhores profissionais <br/>se encontram aqui.</p>
+         <Link to = '/cadastro' className = 'But_comece_ja'>Comece já</Link>
        </div>
         <div className = 'imagem_corpo'>
            <img src="logo.png" alt="" /> 
